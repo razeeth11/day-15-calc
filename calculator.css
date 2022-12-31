@@ -1,0 +1,59 @@
+body{
+    background-color: bisque;
+  }
+
+  *{
+    font-size: 15px;
+    font-weight: bold;
+    
+  }
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(4,25%) ;
+  height: 300px; 
+}
+
+input{
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  height: 40px;
+  text-align: right;
+}   
+
+.maincontainer{
+  background-color: rgb(27, 27, 27);
+  padding: 10px;
+  border-radius: 5px;
+  width: 30%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+button{
+  margin: 5px;
+  border: none;
+  border-radius: 2px;
+  color: white;
+}
+
+.btn-Clear,.btn-cross,.btn-minus,.btn-add,.btn-divide,.btn-ans{
+  background-color: orange;
+  color: black;
+  font-size: 18px;
+} 
+
+.btn-1,.btn-2,.btn-3,.btn-4,.btn-5,.btn-6,.btn-7,.btn-8,.btn-9,.btn-0{
+  background-color: gray;
+} 
+
+.btn-Clear:hover,.btn-cross:hover,.btn-minus:hover,.btn-add:hover,.btn-divide:hover,.btn-ans:hover{
+  background-color: rgb(202, 131, 0);
+  color: black;
+  font-size: 18px;
+} 
+
+.btn-1:hover,.btn-2:hover,.btn-3:hover,.btn-4:hover,.btn-5:hover,.btn-6:hover,.btn-7:hover,.btn-8:hover,.btn-9:hover,.btn-0:hover{
+  background-color: rgb(92, 92, 92);
+}
